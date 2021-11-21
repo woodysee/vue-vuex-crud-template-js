@@ -14,7 +14,6 @@
         :value="data.title"
         @keydown="onChangeTodoText"
         @keydown.enter="addTodo"
-        dense
         slot="false"
       ></v-text-field>
       <v-list-item-subtitle> Created: {{ data.created }} </v-list-item-subtitle>
