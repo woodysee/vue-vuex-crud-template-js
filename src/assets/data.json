@@ -1,19 +1,19 @@
 {
   "todos": [
     {
-      "id": 1,
+      "id": "Template-1",
       "lastUpdated": "21 Nov 2021 21:00:00",
       "title": "Finish groceries",
       "done": true
     },
     {
-      "id": 2,
+      "id": "Template-2",
       "lastUpdated": "21 Nov 2021 21:00:00",
       "title": "Buy caixin",
       "done": false
     },
     {
-      "id": 3,
+      "id": "Template-3",
       "lastUpdated": "21 Nov 2021 21:00:00",
       "title": "Go for a run",
       "done": false

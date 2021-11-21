@@ -1,5 +1,5 @@
 <template>
-  <v-app class="todo-list">
+  <v-app>
     <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
         <v-icon class="mr-3" color="white">mdi-format-list-checks</v-icon>
@@ -16,6 +16,6 @@
 
 <script>
 export default {
-  name: "App",
+  name: "app",
 };
 </script>
