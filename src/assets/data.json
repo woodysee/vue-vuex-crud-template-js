@@ -2,19 +2,22 @@
   "todos": [
     {
       "id": "Template-1",
-      "lastUpdated": "21 Nov 2021 21:00:00",
+      "created": "--",
+      "lastUpdated": "--",
       "title": "Finish groceries",
       "done": true
     },
     {
       "id": "Template-2",
-      "lastUpdated": "21 Nov 2021 21:00:00",
+      "created": "--",
+      "lastUpdated": "--",
       "title": "Buy caixin",
       "done": false
     },
     {
       "id": "Template-3",
-      "lastUpdated": "21 Nov 2021 21:00:00",
+      "created": "--",
+      "lastUpdated": "--",
       "title": "Go for a run",
       "done": false
     }
