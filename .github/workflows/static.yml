@@ -27,6 +27,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -34,6 +37,7 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Compile single page web application assets
         run: |
+          npm install
           npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
