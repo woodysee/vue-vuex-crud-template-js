@@ -36,11 +36,11 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Read .nvmrc
-        run: NVMRC=$(cat .nvmrc)
+        run: echo "NVMRC_VALUE=$(cat .nvmrc)" >> $GITHUB_ENV
       - name: Use Node.js (.nvmrc)
         uses: actions/setup-node@v1
         with:
-          node-version: ${NVMRC}
+          node-version: ${env.NVMRC_VALUE}
       - name: Compile single page web application assets
         run: |
           npm install
