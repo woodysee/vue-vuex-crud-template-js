@@ -1,0 +1,5 @@
+## If you are using direnv, you can run custom scripts here like setting git identity and adding your SSH key
+# git config user.name $(git config --global user.name)
+# git config user.email $(git config --global user.email)
+## If you are using keychain
+# eval $(keychain --eval --quiet ~/.ssh/id_rsa)
