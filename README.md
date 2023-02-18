@@ -2,8 +2,11 @@
 
 ## Local development
 
-1. `npm install`
-2. `npm run serve`
+### Pre-requisites
+
+1. `nvm use 16` (Assumes you are not using 16 by default and installed node 16 with nvm)
+2. `npm install`
+3. `npm run serve`
 
 ## Example
 
