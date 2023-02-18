@@ -33,7 +33,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Read .nvmrc
-        run: more .envrc >> $NVMRC_NODE_VERSION
+        run: echo $(more .nvmrc) >> $NVMRC_NODE_VERSION
         id: nvm
       - name: Use Node.js (.nvmrc)
         uses: actions/setup-node@v1
